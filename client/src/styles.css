@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+.head-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.navigation{
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+.navigation a{
+    color: rgb(253, 226, 167);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: white;
+}
+
+.navigation .glyphicon{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+
+#user_logged{
+    text-align: center;
+    background: black;
+    bottom: 0px;
+    border-top: 2px solid #444;
+    width: 75%;
+}
+
+.btn-logout{
+    cursor: pointer;
+}
+
+#user_logged .user-image{
+    background: grey;
+    border-radius: 100px;
+    height: 57px;
+    width: 57px;
+    margin: 0px auto;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+#user_logged .user-image img{
+        width: 57px;
+}
+
+.actived{
+    border-bottom: 4px solid #85BD00;
+    padding-bottom: 4px;
+}
